@@ -1,0 +1,17 @@
+.sponsor {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.sponsor img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 50px;
+}
+hr {
+    position: relative;
+    top: -40px;
+    background-color: rgb(171, 169, 169);
+}
+@media screen and (max-width:1000px) {
+    
+}

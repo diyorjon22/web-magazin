@@ -1,0 +1,152 @@
+.site-footer {
+    height: 400px;
+    background: #EFEFEF;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1320px;
+
+}
+.logo-footer {
+    padding: 80px 0;
+}
+.logo-footer img {
+    margin-bottom: 30px;
+}
+.logo-footer p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height:30px;
+    color: #565656;
+    width: 400px;
+}
+.info-footer {
+    margin-top: 50px;
+}
+.info-footer ul {
+    display: flex;
+    flex-direction: column;
+}
+.info-footer p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    margin-bottom: 40px;
+}
+.ul-link {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #565656;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.email-footer {
+    margin-top: 50px;
+}
+.email-footer p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    margin-bottom: 40px;
+}
+.email-footer span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #565656;
+}
+.email-footer ul {
+    margin-top: 20px;
+}
+.email-footer input {
+    font-family: 'Poppins', sans-serif;
+    width: 400px;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    appearance: none;
+    outline: none;
+    padding: 0 20px;
+    font-size: 14px;
+}
+.email-footer button {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    position: relative;
+    left: -50px;
+    width: 100px;
+    height: 45px;
+    border: none;
+    background: #5A5AC9;
+    border-radius: 0px 30px 30px 0px;
+}
+.email-footer button:hover {
+    transition: .5s ease;
+    background: #000;
+}
+@media screen and (max-width:1100px) {
+    .info-footer {
+        display: none;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        width: 420px;
+        
+    }
+}
+@media screen and (max-width:950px) {
+    .footer {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .email-footer input {
+        width: 300px;
+        height: 35px;
+    }
+    .email-footer button {
+        width: 80px;
+        height: 35px;
+    }
+}
+@media screen and (max-width:850px) {
+    .email-footer span {
+        display: none;
+    }
+    .site-footer {
+        height: 500px;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    .email-footer{
+        margin-top: 0;
+    }
+}
+@media screen and (max-width:450px) {
+    .logo-footer p {
+       font-size: 14px;
+       width: 300px;
+    }
+    .footer {
+        width: 300px;
+    }
+    .email-footer input {
+        width: 220px;
+    }
+    .email-footer button {
+        width: 70px;
+    }
+}
